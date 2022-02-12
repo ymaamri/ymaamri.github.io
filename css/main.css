@@ -5,16 +5,16 @@
   right: 0;
   height: 60px;
   font-size: 16px;
-  background-color: #444;
+  background-color: #2386c8;
 }
 
-.container {
+.my-portfolio-header .container {
   margin: auto;
   width: 50%;
   text-align: center;
 }
 
-.container .relative {
+.my-portfolio-header .container .relative {
   position: relative;
   top: 100px;
   width: 128px;
@@ -22,14 +22,14 @@
   margin: auto;
 }
 
-.container .relative img {
+.my-portfolio-header .container .relative img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   text-align: center;
 }
 
-.container h1 {
+.my-portfolio-header .container h1 {
   position: relative;
   top: 100px;
   font-weight: 400;
