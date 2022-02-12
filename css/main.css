@@ -1,3 +1,7 @@
+body {
+  height: 1500px;
+}
+
 .portfolio-header {
   position: fixed;
   top: 0;
@@ -5,7 +9,8 @@
   right: 0;
   height: 60px;
   font-size: 16px;
-  background-color: #2386c8;
+  background-color: #818181;
+  z-index: 3000;
 }
 
 .my-portfolio-header .container {
@@ -36,5 +41,50 @@
   font-size: 25px;
   line-height: 25px;
   color: #363636;
+}
+
+.my-information {
+  background-color: #f1eff1;
+  height: 120px;
+  position: relative;
+  top: 100px;
+}
+
+.my-information .container2 {
+  width: 65%;
+  height: 120px;
+  margin: auto;
+}
+
+.my-information .container2 .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.my-information .container2 .info h3 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #2f3131;
+}
+
+.my-information .bio p {
+  margin: 40px 30px;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1f2020;
+}
+
+.my-information .bio hr {
+  border: 1px solid #afacac;
 }
 /*# sourceMappingURL=main.css.map */
