@@ -1,7 +1,3 @@
-body {
-  height: 1500px;
-}
-
 .portfolio-header {
   position: fixed;
   top: 0;
@@ -11,6 +7,34 @@ body {
   font-size: 16px;
   background-color: #818181;
   z-index: 3000;
+}
+
+.portfolio-header .container0 {
+  width: 60%;
+  margin: auto;
+  height: 100%;
+}
+
+.portfolio-header .container0 ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 15px;
+}
+
+.portfolio-header .container0 ul a {
+  color: white;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.portfolio-header .container0 ul a:hover {
+  color: green;
 }
 
 .my-portfolio-header .container {
@@ -86,5 +110,32 @@ body {
 
 .my-information .bio hr {
   border: 1px solid #afacac;
+}
+
+.my-portfolio-section {
+  background-color: #f1f1f1;
+  padding: 20px 0px;
+}
+
+.my-portfolio-section .container3 {
+  width: 90%;
+  margin: auto;
+}
+
+.my-portfolio-section .container3 .my-portfolio-content .card-group {
+  margin-bottom: 20px;
+}
+
+.my-portfolio-section .container3 .my-portfolio-content .card-title {
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.my-portfolio-section .container3 .my-portfolio-content button {
+  font-family: "Epilogue", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 3px;
 }
 /*# sourceMappingURL=main.css.map */
