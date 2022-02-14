@@ -356,10 +356,16 @@ template {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Epilogue", sans-serif;
   font-size: 14px;
   font-weight: 300;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 // End global rules.
