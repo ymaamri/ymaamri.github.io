@@ -360,4 +360,26 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #686868 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #686868;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
 /*# sourceMappingURL=first.css.map */
