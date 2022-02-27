@@ -1,3 +1,10 @@
+img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 .portfolio-header {
   position: fixed;
   top: 0;
@@ -85,8 +92,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-align: center;
   font-size: 20px;
   padding-top: 30px;
@@ -100,6 +107,7 @@
 }
 
 .my-information .bio p {
+  text-align: center;
   margin: 40px 30px;
   font-family: "Epilogue", sans-serif;
   font-weight: 400;
@@ -130,6 +138,21 @@
   font-family: "Epilogue", sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+
+.my-portfolio-section .container3 .my-portfolio-content p {
+  margin: 0;
+}
+
+.my-portfolio-section .container3 .my-portfolio-content .tools {
+  color: #777;
+}
+
+.my-portfolio-section .container3 .my-portfolio-content .card-footer {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .my-portfolio-section .container3 .my-portfolio-content button {
