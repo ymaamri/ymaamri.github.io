@@ -17,19 +17,21 @@ img {
 }
 
 .portfolio-header .container0 {
-  width: 60%;
+  width: 100%;
   margin: auto;
   height: 100%;
+  position: relative;
 }
 
 .portfolio-header .container0 ul {
+  position: absolute;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding: 15px;
 }
 
@@ -38,10 +40,75 @@ img {
   font-family: "Epilogue", sans-serif;
   font-weight: 700;
   text-decoration: none;
+  margin-right: 10px;
+}
+
+.portfolio-header .container0 ul a.email {
+  font-size: 12px;
+  margin-right: 13px;
+}
+
+.portfolio-header .container0 ul a i {
+  font-size: 20px;
 }
 
 .portfolio-header .container0 ul a:hover {
   color: green;
+}
+
+@media (min-width: 397px) {
+  .portfolio-header .container0 {
+    width: 75%;
+  }
+  .portfolio-header .container0 ul a.email {
+    margin-right: 50px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .portfolio-header .container0 {
+    width: 70%;
+  }
+  .portfolio-header .container0 ul a.email {
+    margin-right: 85px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .portfolio-header .container0 {
+    width: 61%;
+  }
+  .portfolio-header .container0 ul a.email {
+    margin-right: 150px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .portfolio-header .container0 {
+    width: 52%;
+  }
+  .portfolio-header .container0 ul {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .portfolio-header .container0 ul a.email {
+    margin-right: 200px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-header .container0 {
+    width: 52%;
+  }
+  .portfolio-header .container0 ul a.email {
+    margin-right: 300px;
+    font-size: 14px;
+  }
 }
 
 .my-portfolio-header .container {

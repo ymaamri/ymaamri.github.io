@@ -12,15 +12,14 @@ img {
   z-index: 3000;
 
   .container0 {
-    width: 60%;
+    width: 100%;
     margin: auto;
     height: 100%;
-
+    position: relative;
     ul {
+      position: absolute;
       list-style: none;
       display: flex;
-      -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
       justify-content: space-evenly;
       padding: 15px;
 
@@ -29,9 +28,101 @@ img {
         font-family: "Epilogue", sans-serif;
         font-weight: 700;
         text-decoration: none;
-
+        margin-right: 10px;
+        &.email {
+          font-size: 12px;
+          margin-right: 13px;
+        }
+        & i {
+          font-size: 20px;
+        }
         &:hover {
           color: green;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 397px) {
+  .portfolio-header {
+    .container0 {
+      width: 75%;
+      // background-color: pink;
+      ul {
+        a {
+          &.email {
+            margin-right: 50px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .portfolio-header {
+    .container0 {
+      width: 70%;
+      //  background-color: red;
+      ul {
+        a {
+          &.email {
+            margin-right: 85px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .portfolio-header {
+    .container0 {
+      //  background-color: green;
+      width: 61%;
+      ul {
+        a {
+          &.email {
+            margin-right: 150px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .portfolio-header {
+    .container0 {
+      width: 52%;
+      // background-color: orange;
+      ul {
+        justify-content: space-evenly;
+        a {
+          &.email {
+            margin-right: 200px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-header {
+    .container0 {
+      width: 52%;
+      //  background-color: blue;
+      ul {
+        a {
+          &.email {
+            margin-right: 300px;
+            font-size: 14px;
+          }
         }
       }
     }
