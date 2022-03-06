@@ -16,6 +16,8 @@ img {
     margin: auto;
     height: 100%;
     position: relative;
+    display: flex;
+    justify-content: space-evenly;
     ul {
       position: absolute;
       list-style: none;
@@ -43,15 +45,18 @@ img {
     }
   }
 }
-@media (min-width: 397px) {
+@media (min-width: 300px) {
   .portfolio-header {
     .container0 {
-      width: 75%;
+      width: 90%;
       // background-color: pink;
       ul {
         a {
           &.email {
-            margin-right: 50px;
+            margin-right: 30px;
+            font-size: 12px;
+          }
+          & i {
             font-size: 12px;
           }
         }
@@ -71,6 +76,9 @@ img {
             margin-right: 85px;
             font-size: 14px;
           }
+          & i {
+            font-size: 14px;
+          }
         }
       }
     }
@@ -86,6 +94,9 @@ img {
         a {
           &.email {
             margin-right: 150px;
+            font-size: 14px;
+          }
+          & i {
             font-size: 14px;
           }
         }
@@ -106,6 +117,9 @@ img {
             margin-right: 200px;
             font-size: 14px;
           }
+          & i {
+            font-size: 14px;
+          }
         }
       }
     }
@@ -121,6 +135,9 @@ img {
         a {
           &.email {
             margin-right: 300px;
+            font-size: 14px;
+          }
+          & i {
             font-size: 14px;
           }
         }
