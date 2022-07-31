@@ -20,8 +20,7 @@ var vm = new Vue({
     projectsData: [
       {
         title: "Text Repeater",
-        imgLink:
-          "https://www.resizepixel.com/Image/6twx3zmbki/Preview/test-repeater-netlify-app-1024x7.jpg?v=1ce94f0d-f2b7-4a87-afbc-9d0366b1f579",
+        imgLink: "https://i.suar.me/jZEX1/l",
         description: "Add text, repeat how may times you want and copy.",
         langs: "Vue.js, JavaScript, HTML, CSS,",
         previewLink: "https://test-repeater.netlify.app/",
@@ -29,8 +28,7 @@ var vm = new Vue({
       },
       {
         title: "To do app",
-        imgLink:
-          "https://www.resizepixel.com/Image/b7k9mgmw3v/Preview/ymaamri-github-io-1024x768deskto.jpg?v=bcd75737-3785-41ba-8574-10f19c28e04f",
+        imgLink: "https://i.suar.me/3PvJL/l",
         description:
           "A simple to do app with local storage and JavaScript html DOM.",
         langs: "HTML, CSS, Bootstrap, JavaScript",
@@ -39,8 +37,7 @@ var vm = new Vue({
       },
       {
         title: "Leon Template",
-        imgLink:
-          "https://www.resizepixel.com/Image/x6suwelc0v/Preview/ymaamri-github-io-1024x768deskto.jpg?v=0e48ddb6-1858-49ba-9114-aa5a0bf82867",
+        imgLink: "https://i.suar.me/ovEye/l",
         description: "Convert a PSD agency template to HTML/CSS.",
         langs: "HTML, CSS, JavaScript",
         previewLink: "https://ymaamri.github.io/leon-template/",
@@ -48,8 +45,7 @@ var vm = new Vue({
       },
       {
         title: "Kasper Template",
-        imgLink:
-          "https://www.resizepixel.com/Image/6sku70o0mr/Preview/ymaamri-github-io-1024x768deskto.jpg?v=7a70c6a6-156a-4922-b66f-c0ab73d31fb0",
+        imgLink: "https://i.suar.me/7YvEm/l",
         description: "Convert a creative one page PSD template to HTML/CSS.",
         langs: "HTML, CSS",
         previewLink: "https://ymaamri.github.io/kasper-template/",
@@ -57,8 +53,7 @@ var vm = new Vue({
       },
       {
         title: "Deer Template",
-        imgLink:
-          "https://www.resizepixel.com/Image/hyovhy7jhg/Preview/ymaamri-github-io-1024x768deskto.jpg?v=2c843179-887c-4df9-b1a2-b06cb06bf4d1",
+        imgLink: "https://i.suar.me/gwEXQ/l",
         description: "Convert a PSD template to HTML/CSS.",
         langs: "HTML, CSS",
         previewLink: "https://ymaamri.github.io/deer-template/",
