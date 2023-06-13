@@ -20,7 +20,7 @@ var vm = new Vue({
     projectsData: [
       {
         title: "Shopping Cart - React",
-        imgLink: "https://i.suar.me/l8qr5/l",
+        imgLink: "https://i.suar.me/176d3/l",
         description: "React shopping cart, for simple ecommerce website.",
         langs: "React Router, React Context API",
         previewLink: "https://ymaamri.github.io/shopping-cart/",
