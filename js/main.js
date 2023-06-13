@@ -19,6 +19,14 @@ var vm = new Vue({
   data: {
     projectsData: [
       {
+        title: "Shopping Cart - React",
+        imgLink: "https://i.suar.me/l8qr5/l",
+        description: "React shopping cart, for simple ecommerce website.",
+        langs: "React Router, React Context API",
+        previewLink: "https://ymaamri.github.io/shopping-cart/",
+        codeLink: "https://github.com/ymaamri/shopping-cart/",
+      },
+      {
         title: "Text Repeater",
         imgLink: "https://i.suar.me/jZEX1/l",
         description: "Add text, repeat how may times you want and copy.",
@@ -36,12 +44,12 @@ var vm = new Vue({
         codeLink: "https://github.com/ymaamri/to-do/",
       },
       {
-        title: "Leon Template",
-        imgLink: "https://i.suar.me/ovEye/l",
-        description: "Convert a PSD agency template to HTML/CSS.",
-        langs: "HTML, CSS, JavaScript",
-        previewLink: "https://ymaamri.github.io/leon-template/",
-        codeLink: "https://github.com/ymaamri/leon-template/",
+        title: "Deer Template",
+        imgLink: "https://i.suar.me/gwEXQ/l",
+        description: "Convert a PSD template to HTML/CSS.",
+        langs: "HTML, CSS",
+        previewLink: "https://ymaamri.github.io/deer-template/",
+        codeLink: "https://github.com/ymaamri/deer-template/",
       },
       {
         title: "Kasper Template",
@@ -52,12 +60,12 @@ var vm = new Vue({
         codeLink: "https://github.com/ymaamri/kasper-template/",
       },
       {
-        title: "Deer Template",
-        imgLink: "https://i.suar.me/gwEXQ/l",
-        description: "Convert a PSD template to HTML/CSS.",
-        langs: "HTML, CSS",
-        previewLink: "https://ymaamri.github.io/deer-template/",
-        codeLink: "https://github.com/ymaamri/deer-template/",
+        title: "Leon Template",
+        imgLink: "https://i.suar.me/ovEye/l",
+        description: "Convert a PSD agency template to HTML/CSS.",
+        langs: "HTML, CSS, JavaScript",
+        previewLink: "https://ymaamri.github.io/leon-template/",
+        codeLink: "https://github.com/ymaamri/leon-template/",
       },
     ],
   },
