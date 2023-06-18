@@ -19,8 +19,16 @@ var vm = new Vue({
   data: {
     projectsData: [
       {
+        title: "gpt3 landing page",
+        imgLink: "https://i.suar.me/LYeZG/l",
+        description: "Transorm a figma design into a responsive website.",
+        langs: "React",
+        previewLink: "https://ymaamri.github.io/gpt3-landing-page/",
+        codeLink: "https://github.com/ymaamri/gpt3-landing-page/",
+      },
+      {
         title: "Shopping Cart - React",
-        imgLink: "https://i.suar.me/176d3/l",
+        imgLink: "https://i.suar.me/176d3/l ",
         description: "React shopping cart, for simple ecommerce website.",
         langs: "React Router, React Context API",
         previewLink: "https://ymaamri.github.io/shopping-cart/",
