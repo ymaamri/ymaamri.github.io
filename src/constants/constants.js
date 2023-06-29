@@ -1,0 +1,75 @@
+// img 640 * 333
+export const projects = [
+  {
+    title: "gpt3 landing page",
+    description: "Transorm a figma design into a responsive website.",
+    image: "/images/gpt.png",
+    tags: ["React"],
+    visit: "https://github.com/ymaamri/gpt3-landing-page/",
+    source: "https://ymaamri.github.io/gpt3-landing-page/",
+    id: 6,
+  },
+  {
+    title: "Shopping Cart - React",
+    description: "React shopping cart, for simple ecommerce website.",
+    image: "/images/shopping.png",
+    tags: ["React Router", "React Context API"],
+    visit: "https://ymaamri.github.io/shopping-cart/",
+    source: "https://github.com/ymaamri/shopping-cart/",
+    id: 5,
+  },
+  {
+    title: "Text Repeater",
+    description: "Add text, repeat how may times you want and copy.",
+    image: "/images/repeater.png",
+    tags: ["Vue.js", "JavaScript", "HTML", "CSS"],
+    visit: "https://github.com/ymaamri/text-repeater",
+    source: "https://test-repeater.netlify.app/",
+    id: 4,
+  },
+  {
+    title: "To do app",
+    description:
+      "A simple to do app with local storage and JavaScript html DOM.",
+    image: "/images/todo.png",
+    tags: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    visit: "https://github.com/ymaamri/to-do/",
+    source: "https://ymaamri.github.io/to-do/",
+    id: 3,
+  },
+  {
+    title: "Deer Template",
+    description: "Convert a PSD template to HTML/CSS responsive web page.",
+    image: "/images/deer.png",
+    tags: ["HTML", "CSS"],
+    visit: "https://github.com/ymaamri/deer-template/",
+    source: "https://ymaamri.github.io/deer-template/",
+    id: 2,
+  },
+  {
+    title: "Kasper Template",
+    description: "Convert a creative one page PSD template to HTML/CSS.",
+    image: "/images/kasper.png",
+    tags: ["HTML", "CSS"],
+    visit: "https://github.com/ymaamri/kasper-template/",
+    source: "https://ymaamri.github.io/kasper-template/",
+    id: 1,
+  },
+  {
+    title: "Leon Template",
+    description: "Convert a PSD agency template to HTML/CSS.",
+    image: "/images/leon.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    visit: "https://github.com/ymaamri/leon-template/",
+    source: "https://ymaamri.github.io/leon-template/",
+    id: 0,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2017, text: "Started my journey" },
+  { year: 2018, text: "Worked as a freelance developer" },
+  { year: 2019, text: "Founded JavaScript Mastery" },
+  { year: 2020, text: "Shared my projects with the world" },
+  { year: 2021, text: "Started my own platform" },
+];
