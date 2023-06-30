@@ -31,19 +31,19 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="https://ymaamri.github.io/#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
+        <a href="#projects" onClick={() => scrollToSection("projects")}>
+          Projects
+        </a>
       </li>
       <li>
-        <Link href="https://ymaamri.github.io/#tech">
-          <NavLink>Technologies</NavLink>
-        </Link>
+        <a href="#tech" onClick={() => scrollToSection("tech")}>
+          Technologies
+        </a>
       </li>
       <li>
-        <Link href="https://ymaamri.github.io/#about">
-          <NavLink>About</NavLink>
-        </Link>
+        <a href="#about" onClick={() => scrollToSection("about")}>
+          About
+        </a>
       </li>
     </Div2>
     <Div3>
@@ -56,7 +56,7 @@ const Header = () => (
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      {/*       <SocialIcons href="https://google.com">
+      {/* <SocialIcons href="https://google.com">
         <AiFillInstagram size="3rem" />
       </SocialIcons> */}
     </Div3>
