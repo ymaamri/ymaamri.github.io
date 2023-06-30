@@ -31,17 +31,17 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects" onClick={() => scrollToSection("projects")}>
+        <Link href="https://ymaamri.github.io/#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech" onClick={() => scrollToSection("tech")}>
+        <Link href="https://ymaamri.github.io/#tech">
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about" onClick={() => scrollToSection("about")}>
+        <Link href="https://ymaamri.github.io/#about">
           <NavLink>About</NavLink>
         </Link>
       </li>
