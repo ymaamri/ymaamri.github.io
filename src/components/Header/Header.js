@@ -1,7 +1,7 @@
-import { Link as ScrollLink } from "react-scroll";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
-import { Container, Div1, Div2, Div3, SocialIcons } from "./HeaderStyles";
+import { Link as ScrollLink } from 'react-scroll';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { DiCssdeck } from 'react-icons/di';
+import { Container, Div1, Div2, Div3, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
   <Container>
@@ -13,9 +13,9 @@ const Header = () => (
         duration={500}
         offset={-70}
       >
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <DiCssdeck size="3rem" />{" "}
-          <span style={{ marginLeft: "5px" }}>Yassine Maamri</span>
+        <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
+          <DiCssdeck size="3rem" />{' '}
+          <span style={{ marginLeft: '5px' }}>Yassine Maamri</span>
         </a>
       </ScrollLink>
     </Div1>
@@ -28,7 +28,7 @@ const Header = () => (
           duration={500}
           offset={-70}
         >
-          <NavLink>Projects</NavLink>
+          <a>Projects</a>
         </ScrollLink>
       </li>
       <li>
@@ -39,7 +39,7 @@ const Header = () => (
           duration={500}
           offset={-70}
         >
-          <NavLink>Technologies</NavLink>
+          <a>Technologies</a>
         </ScrollLink>
       </li>
       <li>
@@ -50,7 +50,7 @@ const Header = () => (
           duration={500}
           offset={-70}
         >
-          <NavLink>About</NavLink>
+          <a>About</a>
         </ScrollLink>
       </li>
     </Div2>
