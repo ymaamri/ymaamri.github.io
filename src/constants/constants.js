@@ -14,8 +14,8 @@ export const projects = [
     description: "React shopping cart, for simple ecommerce website.",
     image: "/images/shopping.png",
     tags: ["React Router", "React Context API"],
-    visit: "https://ymaamri.github.io/shopping-cart/",
-    source: "https://github.com/ymaamri/shopping-cart/",
+    visit: "https://github.com/ymaamri/shopping-cart/",
+    source: "https://ymaamri.github.io/shopping-cart/",
     id: 5,
   },
   {
