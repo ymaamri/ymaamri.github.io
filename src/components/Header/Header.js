@@ -31,19 +31,19 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <a href="#projects" onClick={() => scrollToSection("projects")}>
+        <Navo href="#projects" onClick={() => scrollToSection("projects")}>
           Projects
-        </a>
+        </Navo>
       </li>
       <li>
-        <a href="#tech" onClick={() => scrollToSection("tech")}>
+        <Navo href="#tech" onClick={() => scrollToSection("tech")}>
           Technologies
-        </a>
+        </Navo>
       </li>
       <li>
-        <a href="#about" onClick={() => scrollToSection("about")}>
+        <Navo href="#about" onClick={() => scrollToSection("about")}>
           About
-        </a>
+        </Navo>
       </li>
     </Div2>
     <Div3>
