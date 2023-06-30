@@ -1,57 +1,42 @@
-import { Link as ScrollLink } from 'react-scroll';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
-import { Container, Div1, Div2, Div3, SocialIcons } from './HeaderStyles';
+import Link from "next/link";
+import React from "react";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { DiCssdeck } from "react-icons/di";
+
+import {
+  Container,
+  Div1,
+  Div2,
+  Div3,
+  NavLink,
+  SocialIcons,
+} from "./HeaderStyles";
 
 const Header = () => (
   <Container>
     <Div1>
-      <ScrollLink
-        to="home"
-        spy={true}
-        smooth={true}
-        duration={500}
-        offset={-70}
-      >
-        <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
-          <DiCssdeck size="3rem" />{' '}
-          <span style={{ marginLeft: '5px' }}>Yassine Maamri</span>
+      <Link href="/">
+        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
+          <DiCssdeck size="3rem" />{" "}
+          <span style={{ marginLeft: "5px" }}>Yassine Maamri</span>
         </a>
-      </ScrollLink>
+      </Link>
     </Div1>
     <Div2>
       <li>
-        <ScrollLink
-          to="projects"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-70}
-        >
-          <a>Projects</a>
-        </ScrollLink>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
+        </Link>
       </li>
       <li>
-        <ScrollLink
-          to="tech"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-70}
-        >
-          <a>Technologies</a>
-        </ScrollLink>
+        <Link href="#tech">
+          <NavLink>Technologies</NavLink>
+        </Link>
       </li>
       <li>
-        <ScrollLink
-          to="about"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={-70}
-        >
-          <a>About</a>
-        </ScrollLink>
+        <Link href="#about">
+          <NavLink>About</NavLink>
+        </Link>
       </li>
     </Div2>
     <Div3>
@@ -64,7 +49,7 @@ const Header = () => (
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      {/* <SocialIcons href="https://google.com">
+      {/*       <SocialIcons href="https://google.com">
         <AiFillInstagram size="3rem" />
       </SocialIcons> */}
     </Div3>
