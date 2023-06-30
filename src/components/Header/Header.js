@@ -1,42 +1,57 @@
-import Link from "next/link";
-import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
-
-import {
-  Container,
-  Div1,
-  Div2,
-  Div3,
-  NavLink,
-  SocialIcons,
-} from "./HeaderStyles";
+import { Container, Div1, Div2, Div3, SocialIcons } from "./HeaderStyles";
 
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
+      <ScrollLink
+        to="home"
+        spy={true}
+        smooth={true}
+        duration={500}
+        offset={-70}
+      >
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
           <DiCssdeck size="3rem" />{" "}
           <span style={{ marginLeft: "5px" }}>Yassine Maamri</span>
         </a>
-      </Link>
+      </ScrollLink>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <ScrollLink
+          to="projects"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-70}
+        >
           <NavLink>Projects</NavLink>
-        </Link>
+        </ScrollLink>
       </li>
       <li>
-        <Link href="#tech">
+        <ScrollLink
+          to="tech"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-70}
+        >
           <NavLink>Technologies</NavLink>
-        </Link>
+        </ScrollLink>
       </li>
       <li>
-        <Link href="#about">
+        <ScrollLink
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-70}
+        >
           <NavLink>About</NavLink>
-        </Link>
+        </ScrollLink>
       </li>
     </Div2>
     <Div3>
@@ -49,7 +64,7 @@ const Header = () => (
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      {/*       <SocialIcons href="https://google.com">
+      {/* <SocialIcons href="https://google.com">
         <AiFillInstagram size="3rem" />
       </SocialIcons> */}
     </Div3>
