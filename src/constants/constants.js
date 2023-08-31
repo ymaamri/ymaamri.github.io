@@ -7,6 +7,15 @@ export const projects = [
     tags: ["React"],
     visit: "https://github.com/ymaamri/gpt3-landing-page/",
     source: "https://ymaamri.github.io/gpt3-landing-page/",
+    id: 7,
+  },
+  {
+    title: "gpt3 landing page",
+    description: "Transorm a figma design into a responsive website.",
+    image: "/images/gpt.png",
+    tags: ["React"],
+    visit: "https://github.com/ymaamri/gpt3-landing-page/",
+    source: "https://ymaamri.github.io/gpt3-landing-page/",
     id: 6,
   },
   {
